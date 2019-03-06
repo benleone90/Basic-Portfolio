@@ -1,0 +1,36 @@
+body {
+    background-image:url();
+    background-color: #cccccc;
+}
+
+header {
+    float: left;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
+    height: 28px;
+    border: 2px solid red;
+    clear: both;
+}
+
+h1 {
+    margin: 0px;
+}
+
+nav {
+    /* float: right; */
+}
+
+img {
+    float: left;
+}
+
+
+.container {
+    margin: 0px 20%;
+}
+
+.container img {
+    height: 200px;
+    width: 200px;
+}

@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url(assests\images\dynamic-style.png);
+  background-image: url(/assests/images/dynamic-style.png);
   background-size: cover;
   background-color: #cccccc;
   margin: 0px;
@@ -64,6 +64,10 @@ a:active {
 
 nav {
 padding: 29px 0px;
+}
+
+nav span {
+  color: #777777;
 }
 
 .container {

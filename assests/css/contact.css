@@ -1,11 +1,24 @@
 textarea {
   width: 100%;
   height: 50px;
-  margin: 10px 0;
+  border-radius: 2px;
+  border: 1px solid #ccc;
 }
 
-input {
+input[type=text] {
   width: 100%;
-  margin: 10px 0;
   height: 30px;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+}
+
+input[type=submit] {
+}
+
+label {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #777777;
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }

@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url(/assests/images/dynamic-style.png);
+  background-image: url(/assests/images/rockywall_@2X.png);
   background-size: cover;
   background-color: #cccccc;
   margin: 0px;
@@ -16,6 +16,9 @@ header {
   width: 100%;
   height: auto;
   border: 0px solid #cccccc;
+  position: fixed;
+  top: 0;
+  z-index: 1;
 }
 
 a:link {
@@ -47,7 +50,7 @@ a:active {
 }
 
 #name {
-    font-size: 2em;
+  font-size: 2em;
   background-color: #4aaaa5;
   color: #ffffff;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -63,7 +66,7 @@ a:active {
 }
 
 nav {
-padding: 29px 0px;
+  padding: 29px 0px;
 }
 
 nav span {
@@ -72,10 +75,11 @@ nav span {
 
 .container {
   width: 960px;
-  margin: 30px auto;
+  margin: 110px auto;
   overflow: auto;
   background-color: #ffffff;
   padding: 20px;
+  
 }
 
 h1 {

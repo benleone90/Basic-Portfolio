@@ -43,6 +43,7 @@ a:active {
   width: 960px;
   margin: auto;
   overflow: auto;
+  position: relative;
 }
 
 #name {
@@ -55,15 +56,19 @@ a:active {
 }
 
 #link-list {
-  border: blue 2px solid;
   font-family: Arial, Helvetica, sans-serif;
-  float: right;
+  position: absolute;
+  right: 0px;
+  height: 100%;
+}
+
+nav {
+padding: 29px 0px;
 }
 
 .container {
   width: 960px;
   margin: 30px auto;
-  border: 2px orange solid;
   overflow: auto;
   background-color: #ffffff;
   padding: 20px;
@@ -73,29 +78,6 @@ h1 {
    font-family: Georgia, 'Times New Roman', Times, serif;
   color: #4aaaa5;
   padding-bottom: 20px;
-}
-
-img {
-  float: left;
-  margin-right: 20px;
-  height: 200px;
-  width: 200px;
-}
-
-p {
-  margin-top: 20px;
-  line-height: 2em;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #777777;
-}
-
-input [type=text], select, textarea {
-    width: 100%;
-}
-
-label {
-  font-family: Arial, Helvetica, sans-serif;
-  color: #777777;
 }
 
 footer {
